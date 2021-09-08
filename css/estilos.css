@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.principal{
+
+    margin: auto;
+    /*display: inline-block; /*PONER ABAJO LOS ELEMENTOS*/
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    display: inline-block;
+    
+}
+
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: #434343;
+}
+
+.nav > li {
+    float: left; /*ORDENADO EL MENU PRINCIPAL*/
+}
+
+.nav li ul {
+    display: none;
+    position: absolute; /*ABSOLUTA PARA MENU*/
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block; /*PARA QUE SE PUEDA DESPLEGAR*/
+}
+
+.nav li ul li{
+     position: relative;  /*SUBMENOS PARA EL MENU*/
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top:0px;
+}
+
+
+/*PIE DE PAGINA*/
+.pie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabe{
+    display: flex;
+    justify-content: center;
+}
