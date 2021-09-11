@@ -34,7 +34,7 @@ main{
    /* background-color: darkred;*/
     flex-wrap: wrap;
 }
-
+/*
 footer{
     display: flex;
     height: 185px;
@@ -42,7 +42,7 @@ footer{
     align-items: center;
     background-color: blueviolet;
 
-}
+}*/
 
 article#contenido1{
     width: 50%;
@@ -104,6 +104,25 @@ button{
   
 }
 
+  /*PIE DE PAGINA*/
+  .piePagina{
+  
+    justify-content: center;
+    align-items:flex-end;
+    height: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 185px;
+    background: linear-gradient(135deg, #8db0c7, #9e4756);
+    padding: 0  5%;
+  
+  }
+  .piePagina a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+  }
 
 /*MENU DE OPCIONES*/
 ul, ol{

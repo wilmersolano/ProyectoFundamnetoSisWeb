@@ -289,3 +289,10 @@ position: relative;
   text-decoration: none;
   color:black;
 }
+
+nav{
+  display: flex;
+  height: 38px;
+ /* background-color: darkgreen;*/
+  justify-content: space-between;
+}
